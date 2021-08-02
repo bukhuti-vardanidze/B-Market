@@ -1,0 +1,143 @@
+.info{
+    width: 1370px;
+    height: 150px;
+    display: flex;
+    margin:0 auto;
+
+}
+.logo{
+    position: absolute;
+    width: 88px;
+    height: 59px;
+    margin-top: 27px;
+    margin-left: 92px;
+}
+.search{
+    width: 570px;
+    height: 48px;
+   border: solid gray 0.5px;
+   margin-top: 30px;
+   margin-right: 491px;
+   margin-left: 381px;
+   border-radius: 8px;
+   display: flex;
+   justify-content: space-between;
+
+    }
+    .search-p{
+        font-size: 14px;
+      margin-left: 5px;
+        margin-top: 15px;
+        opacity: 0.5;
+    }
+    .fa-search{
+        width: 18px;
+        height: 18px;
+        opacity: 0.5;
+        margin-top: 15px;
+        margin-right: 50px;
+    }
+    .icons{
+        display: flex;
+        width: 140px;
+        height:  35px;
+        margin-top: 39px;
+        margin-right: 120px;
+
+    }
+    .fa-heart{
+        width: 28px;
+        height: 25px;
+    }
+    .fa-user{
+        width: 28px;
+        height: 25px;
+    }
+    .fa-shopping-cart{
+        width: 28px;
+        height: 25px;
+    }
+    .list{
+        display: flex;
+        height: 23px;
+        width: 1370px;
+        margin: 0 auto;
+        margin-bottom: 2px;
+        margin-left: 400px;
+        justify-content: space-between;
+       
+    }
+    .ul{
+        display: flex;
+       
+    }
+    .li{
+        margin-right: 35px;
+        justify-content: space-between;
+        
+    }
+
+                  /*section-1*/
+.section-1-image{
+    background-image: url(../images/Mask.jpg);
+  max-width: 1366px;
+
+   height: 594px;
+   margin:0 auto;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+}
+.section-1-inf{
+width: 595px;
+height: 310px;
+ 
+ margin: 170px 0px 170px 111px;
+ 
+}
+.section-1-p{
+    font-size: 40px;
+    color: #FFF;
+    margin-bottom: 19px;
+}
+.section-1-p2{
+    font-size: 16px;
+    color: #FFF;
+    margin-bottom: 37px;
+}
+.section-box{
+    display: flex;
+}
+.box{
+    width: 137px;
+    height: 50px;
+    display: flex;
+    background-color: #FF4F04;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FFF;
+    margin-right: 15px;
+    
+}
+.box-2{
+    width: 224px;
+    height: 50px;
+    display: flex;
+    background-color: #a58b8036;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FFF;
+}
+
+
+.section-img{
+    background-image: url(../images/Mask\ Group\ 1.svg);
+   height: 594px;
+   width: 674px;
+   background-repeat: no-repeat;
+   
+  
+}
