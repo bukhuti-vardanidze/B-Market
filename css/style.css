@@ -218,7 +218,7 @@ height: 310px;
 
 .section-4-photo{
     background-image: url(../images/Rectangle.jpg);
-    width: 1366px;
+    width: 1370px;
     height: 251px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -243,71 +243,201 @@ height: 310px;
     margin-top: 20px;
     font-size: 15px;
 }
-/*section-5*/
+
+
+
+
+
 .section-5{
-    width: 1366px;
-    height: 1050px;
-    background-color: aquamarine;
-    margin: 0 auto;
+  width: 1370px;
+  height: 1050px;
+
+  margin: 0 auto;
+
 }
 
+.section-5-p{
+    width: 1370px;
+    text-align: center;
+    height: 150px;
+ 
+    
+}
 .section-5-p1{
     text-align: center;
-    font-size: 14px;
-    padding-top: 79px;
-    padding-bottom: 8px;
-
-
+    font-size: 15px;
+    padding-top: 80px;
+    padding-bottom: 7px;
+    
 }
 .section-5-p2{
     text-align: center;
     font-size: 30px;
-    margin-bottom: 52px;
-}
-.section-5-conteiner{
-    width: 1366px;
-    width: 680px;
-    display: flex;
-    align-items: center;
+  
 }
 
+
+
+.container-5{
+    width: 1366px;
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+   
+}
 .section-5-box1{
     width: 540px;
-    height: 680px;
-    background-color: chartreuse;
+    height:680px;
     
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: space-evenly;
 }
- .product-1{
-  width: 240px;
-  height: 280px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 
- }
-
- 
-.pr-inf{
+.product-1{
+    width: 240px;
+    height: 280px;
     display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-.pr{
-    width: 55px;
-    height: 20px;
-    border-radius: 15px;
-    background-color: #FFFFFF;
-    text-align: center;
-    margin-left: 20px;
-}
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+   }
+  
+   
+  .pr-inf{
+  
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+  
+  }
+  .pr{
+      width: 55px;
+      height: 20px;
+      border-radius: 15px;
+      background-color:  #f7e8ce;
+      text-align: center;
+      margin-left: 20px;
+      
+  }
+  .pr-p{
+      color: #FF4F04;
+      font-size: 14px;
+      margin-top: 4px;
+  }
+
+
 
 .section-5-box2{
     width: 540px;
-    height: 680px;
-    color: rgb(196, 237, 100);
+    height:680px;
+   
+}
+.sale{
+    width: 98px;
+    height: 34px;
+    background-color: black;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    
+
+    
+    
+}
+.sale-p{
+    color: white;
+   font-size: 14px;
+   padding-top: 10px;
+   text-align: center;
+   
+}
+.sale-p2{
+    width: 50px;
+    height: 24px;
+    border-radius: 30px;
+    background-color: #f7e8ce;
+    margin-top: -35px;
+    margin-left: 450px;
+    margin-bottom: 10px;
+    
+    
+}
+.p2-p{
+    color: #FF4F04;
+    font-size: 14px;
+    padding-top: 5px;
+    text-align: center;
+}
+.section5-bc{
+    background-image: url(../images/Image.svg);
+    width: 100%;
+    height: 520px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.section-5-box{
+    
+    width: 225px;
+    height: 57px;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 15px;
+    border:  solid 0.8px;
+    
+}
+
+          /*section-6*/
+
+.section-6{
+    width: 1370px;
+    height: 1157px;
+    
+    margin: 0 auto;
+}
+.section-6-container{
+    width: 1197px;
+    height: 729px; 
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   margin: 0 auto;
+
+}
 
 
+/*footer*/
+.footer{
+    width: 1370px;
+    height: 353px;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-text{
+    width: 247px;
+    height: 145px;
+    padding-top: 70px;
+    padding-left: 88px;
+}
+.footer-inf{
+    padding-top: 70px;
+}
+.footer-1{
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+.footer-2{
+    padding-bottom: 8px;
+}
+
+.inf{
+    width: 1366px;
+    margin: 0 auto;
 }
